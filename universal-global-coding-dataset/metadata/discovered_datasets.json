@@ -1,0 +1,1171 @@
+[
+  {
+    "dataset_id": "bigcode/the-stack",
+    "name": "The Stack v1",
+    "source_url": "https://huggingface.co/datasets/bigcode/the-stack",
+    "publisher": "BigCode (Hugging Face & ServiceNow)",
+    "license": "permissive-multiple (MIT, Apache-2.0, BSD)",
+    "license_category": "permissive",
+    "access_permissions": "gated",
+    "redistribution_permissions": "allow_with_attribution",
+    "languages": [
+      "python",
+      "javascript",
+      "typescript",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "rust",
+      "php",
+      "ruby",
+      "swift",
+      "kotlin",
+      "scala",
+      "shell",
+      "sql",
+      "html",
+      "css",
+      "solidity",
+      "lua",
+      "julia",
+      "r",
+      "haskell",
+      "clojure",
+      "elixir",
+      "ocaml"
+    ],
+    "domains": [
+      "basic_programming",
+      "advanced_programming",
+      "algorithms",
+      "data_structures",
+      "web_development",
+      "systems_programming",
+      "backend_development"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 200000000,
+    "storage_size_bytes": 3100000000000,
+    "token_count": 1000000000000,
+    "collection_date": "2026-10-31",
+    "version": "1.2.0",
+    "training_type": "pretraining",
+    "quality_information": "Near-deduplicated, filtered for malware, opt-out mechanisms honored",
+    "known_limitations": [
+      "Raw pretraining code may contain subtle bugs",
+      "Requires HF access token for full download"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "bigcode/the-stack-v2",
+    "name": "The Stack v2",
+    "source_url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+    "publisher": "BigCode Consortium & Software Heritage",
+    "license": "swh-permissive (MIT, Apache-2.0, BSD-2/3, ISC)",
+    "license_category": "permissive",
+    "access_permissions": "gated",
+    "redistribution_permissions": "allow_with_attribution",
+    "languages": [
+      "python",
+      "javascript",
+      "typescript",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "rust",
+      "php",
+      "ruby",
+      "swift",
+      "kotlin",
+      "scala",
+      "shell",
+      "sql",
+      "html",
+      "css",
+      "solidity",
+      "cuda",
+      "assembly",
+      "verilog",
+      "vhdl",
+      "dart",
+      "julia",
+      "r",
+      "elixir",
+      "lua",
+      "perl",
+      "haskell",
+      "clojure"
+    ],
+    "domains": [
+      "basic_programming",
+      "advanced_programming",
+      "algorithms",
+      "software_architecture",
+      "distributed_systems",
+      "fullstack_development",
+      "machine_learning_engineering"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 900000000,
+    "storage_size_bytes": 60000000000000,
+    "token_count": 3000000000000,
+    "collection_date": "2026-10-31",
+    "version": "2.0.0",
+    "training_type": "pretraining",
+    "quality_information": "Derived from Software Heritage archive with full Git commit provenance and strict license classification",
+    "known_limitations": [
+      "Extremely large storage footprint (60 TB)",
+      "Requires streaming pipeline for practical ingestion"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "software_heritage"
+  },
+  {
+    "dataset_id": "bigcode/starcoderdata",
+    "name": "StarCoder Training Data",
+    "source_url": "https://huggingface.co/datasets/bigcode/starcoderdata",
+    "publisher": "BigCode",
+    "license": "bigcode-openrail-m",
+    "license_category": "permissive",
+    "access_permissions": "gated",
+    "redistribution_permissions": "allow_with_attribution",
+    "languages": [
+      "python",
+      "javascript",
+      "typescript",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "rust",
+      "php",
+      "ruby",
+      "swift",
+      "kotlin",
+      "scala",
+      "shell",
+      "sql",
+      "html",
+      "css"
+    ],
+    "domains": [
+      "basic_programming",
+      "advanced_programming",
+      "data_structures",
+      "algorithms",
+      "web_development",
+      "backend_development"
+    ],
+    "dataset_format": "jsonl.zst",
+    "example_count": 80000000,
+    "storage_size_bytes": 780000000000,
+    "token_count": 250000000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "pretraining",
+    "quality_information": "PII-redacted, stars filtered, license vetted",
+    "known_limitations": [
+      "Redacted tokens require custom unmasking or token replacement"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "bigcode/starcoder2-data",
+    "name": "StarCoder2 Data",
+    "source_url": "https://huggingface.co/datasets/bigcode/starcoder2-data",
+    "publisher": "BigCode",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow_with_attribution",
+    "languages": [
+      "python",
+      "javascript",
+      "typescript",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "rust",
+      "php",
+      "ruby",
+      "swift",
+      "kotlin",
+      "scala",
+      "shell",
+      "sql",
+      "html",
+      "css",
+      "solidity",
+      "cuda",
+      "dart",
+      "julia",
+      "r",
+      "lua"
+    ],
+    "domains": [
+      "basic_programming",
+      "advanced_programming",
+      "software_architecture",
+      "multi_file_code_generation",
+      "testing_and_debugging"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 600000000,
+    "storage_size_bytes": 20000000000000,
+    "token_count": 1000000000000,
+    "collection_date": "2026-10-31",
+    "version": "2.0.0",
+    "training_type": "pretraining",
+    "quality_information": "Strict quality heuristics, compiler syntax checking, and git repo metadata preservation",
+    "known_limitations": [
+      "High storage requirement"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "codesearchnet",
+    "name": "CodeSearchNet",
+    "source_url": "https://github.com/github/CodeSearchNet",
+    "publisher": "GitHub & Microsoft Research",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "javascript",
+      "java",
+      "ruby",
+      "php",
+      "go"
+    ],
+    "domains": [
+      "code_documentation",
+      "api_development",
+      "basic_programming",
+      "algorithms"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 6000000,
+    "storage_size_bytes": 20000000000,
+    "token_count": 5000000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "sft",
+    "quality_information": "Comment-code pairs extracted from GitHub projects with docstring filtering",
+    "known_limitations": [
+      "Some docstrings are incomplete or terse",
+      "Older snapshot from 2019"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "github"
+  },
+  {
+    "dataset_id": "microsoft/codexglue",
+    "name": "CodeXGLUE",
+    "source_url": "https://github.com/microsoft/CodeXGLUE",
+    "publisher": "Microsoft Research",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "javascript",
+      "php",
+      "go",
+      "ruby"
+    ],
+    "domains": [
+      "code_translation",
+      "code_refactoring",
+      "bug_fixing",
+      "testing_and_debugging",
+      "code_documentation"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 14000000,
+    "storage_size_bytes": 35000000000,
+    "token_count": 9000000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "sft",
+    "quality_information": "Standardized 14 benchmark tasks across 10 programming languages",
+    "known_limitations": [
+      "Split into multiple sub-tasks; requires task normalization"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "codeparrot/codeparrot-clean",
+    "name": "CodeParrot",
+    "source_url": "https://huggingface.co/datasets/codeparrot/codeparrot-clean",
+    "publisher": "Hugging Face",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "basic_programming",
+      "algorithms",
+      "data_structures",
+      "backend_development"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 5000000,
+    "storage_size_bytes": 50000000000,
+    "token_count": 5000000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "pretraining",
+    "quality_information": "Deduplicated and filtered Python GitHub files",
+    "known_limitations": [
+      "Python only"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "sahil2801/CodeAlpaca-20k",
+    "name": "CodeAlpaca",
+    "source_url": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+    "publisher": "Stanford Alpaca Community / Sahil Choudhary",
+    "license": "cc-by-nc-4.0",
+    "license_category": "non_commercial",
+    "access_permissions": "public",
+    "redistribution_permissions": "non_commercial_only",
+    "languages": [
+      "python",
+      "javascript",
+      "c",
+      "cpp",
+      "java",
+      "sql",
+      "bash"
+    ],
+    "domains": [
+      "basic_programming",
+      "algorithms",
+      "data_structures",
+      "code_generation"
+    ],
+    "dataset_format": "json",
+    "example_count": 20000,
+    "storage_size_bytes": 25000000,
+    "token_count": 15000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "sft",
+    "quality_information": "Self-instruct generated code instruction-following examples",
+    "known_limitations": [
+      "Synthetic origin, potential hallucinations, CC-BY-NC non-commercial license restriction"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "deepmind/code_contests",
+    "name": "CodeContests",
+    "source_url": "https://github.com/google-deepmind/code_contests",
+    "publisher": "Google DeepMind",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "cpp",
+      "java"
+    ],
+    "domains": [
+      "competitive_programming",
+      "algorithms",
+      "data_structures",
+      "performance_optimization"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 13300,
+    "storage_size_bytes": 12000000000,
+    "token_count": 1200000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "reasoning",
+    "quality_information": "Includes problem statements, correct solutions, incorrect solutions, and test suites with private test cases",
+    "known_limitations": [
+      "Hard algorithmic problems, may overfit on competitive programming tropes"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "codeparrot/apps",
+    "name": "APPS",
+    "source_url": "https://huggingface.co/datasets/codeparrot/apps",
+    "publisher": "UC Berkeley",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "competitive_programming",
+      "algorithms",
+      "data_structures",
+      "basic_programming"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 10000,
+    "storage_size_bytes": 1500000000,
+    "token_count": 350000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "benchmark",
+    "quality_information": "Graded into introductory, interview, and competition levels with unit tests",
+    "known_limitations": [
+      "Must be decontaminated when used in training sets to prevent test leakage"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "google-research/mbpp",
+    "name": "MBPP (Mostly Basic Python Problems)",
+    "source_url": "https://github.com/google-research/google-research/tree/master/mbpp",
+    "publisher": "Google Research",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "basic_programming",
+      "algorithms",
+      "data_structures"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 974,
+    "storage_size_bytes": 3500000,
+    "token_count": 1500000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "benchmark",
+    "quality_information": "Hand-crafted Python programming problems with 3 unit tests each",
+    "known_limitations": [
+      "Standard benchmark: MUST be decontaminated from pretraining corpus"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "openai/human-eval",
+    "name": "HumanEval",
+    "source_url": "https://github.com/openai/human-eval",
+    "publisher": "OpenAI",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "basic_programming",
+      "algorithms",
+      "data_structures"
+    ],
+    "dataset_format": "jsonl.gz",
+    "example_count": 164,
+    "storage_size_bytes": 500000,
+    "token_count": 200000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "benchmark",
+    "quality_information": "Hand-crafted functional programming benchmark with assert tests",
+    "known_limitations": [
+      "CRITICAL: Gold-standard benchmark. MUST BE COMPLETELY EXCLUDED from training splits"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "livecodebench/livecodebench",
+    "name": "LiveCodeBench",
+    "source_url": "https://livecodebench.github.io/",
+    "publisher": "LiveCodeBench Team (NYU, UIUC)",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "cpp"
+    ],
+    "domains": [
+      "competitive_programming",
+      "algorithms",
+      "code_generation",
+      "testing_and_debugging"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 1200,
+    "storage_size_bytes": 80000000,
+    "token_count": 25000000,
+    "collection_date": "2026-10-31",
+    "version": "2024.1",
+    "training_type": "benchmark",
+    "quality_information": "Time-stamped contest problems continually updated to eliminate data contamination",
+    "known_limitations": [
+      "Benchmark only"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "princeton-nlp/SWE-bench",
+    "name": "SWE-bench",
+    "source_url": "https://github.com/princeton-nlp/SWE-bench",
+    "publisher": "Princeton NLP",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "real_world_issue_resolution",
+      "repository_understanding",
+      "bug_fixing",
+      "testing_and_debugging",
+      "autonomous_software_engineering"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 2294,
+    "storage_size_bytes": 1500000000,
+    "token_count": 150000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "repository_tasks",
+    "quality_information": "Real GitHub issues and pull requests from 12 popular open-source Python repositories with docker execution harness",
+    "known_limitations": [
+      "Execution requires Docker container environments for full verification"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "princeton-nlp/SWE-bench_Verified",
+    "name": "SWE-bench Verified",
+    "source_url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified",
+    "publisher": "Princeton NLP & OpenAI",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "real_world_issue_resolution",
+      "bug_fixing",
+      "autonomous_software_engineering",
+      "multi_file_code_generation"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 500,
+    "storage_size_bytes": 350000000,
+    "token_count": 45000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "benchmark",
+    "quality_information": "Human-annotated and verified subset of SWE-bench with validated unit tests and reliable reproductions",
+    "known_limitations": [
+      "Evaluation benchmark: Must be decontaminated from agent training data"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "bigcode/commitpackft",
+    "name": "CommitPackFT",
+    "source_url": "https://huggingface.co/datasets/bigcode/commitpackft",
+    "publisher": "BigCode Consortium",
+    "license": "permissive-multiple (MIT, Apache-2.0, BSD)",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow_with_attribution",
+    "languages": [
+      "python",
+      "javascript",
+      "typescript",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "rust",
+      "php",
+      "ruby",
+      "swift",
+      "kotlin",
+      "scala",
+      "shell",
+      "sql",
+      "html",
+      "css",
+      "solidity",
+      "lua",
+      "julia",
+      "r",
+      "haskell",
+      "clojure",
+      "elixir",
+      "ocaml"
+    ],
+    "domains": [
+      "bug_fixing",
+      "code_refactoring",
+      "multi_file_code_generation",
+      "real_world_issue_resolution"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 700000,
+    "storage_size_bytes": 18000000000,
+    "token_count": 4000000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "sft",
+    "quality_information": "High-quality commit messages paired with diffs/code changes across 350+ languages",
+    "known_limitations": [
+      "Some commits include trivial whitespace or typo changes"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "m-a-p/CodeFeedback-Filtered-Instruction",
+    "name": "CodeFeedback",
+    "source_url": "https://huggingface.co/datasets/m-a-p/CodeFeedback-Filtered-Instruction",
+    "publisher": "Multimodal Art Projection (M-A-P)",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "javascript",
+      "cpp",
+      "java",
+      "csharp",
+      "sql",
+      "bash",
+      "go",
+      "rust"
+    ],
+    "domains": [
+      "code_generation",
+      "code_explanation",
+      "testing_and_debugging",
+      "basic_programming",
+      "advanced_programming"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 156000,
+    "storage_size_bytes": 650000000,
+    "token_count": 210000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "sft",
+    "quality_information": "Multi-turn code instructions with human and automated feedback iterations",
+    "known_limitations": [
+      "Filtered from diverse web sources"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "ise-uiuc/Magicoder-OSS-Instruct-75K",
+    "name": "Magicoder (OSS-Instruct)",
+    "source_url": "https://huggingface.co/datasets/ise-uiuc/Magicoder-OSS-Instruct-75K",
+    "publisher": "UIUC (Yuxiang Wei et al.)",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "javascript",
+      "typescript",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "rust",
+      "shell",
+      "sql"
+    ],
+    "domains": [
+      "basic_programming",
+      "advanced_programming",
+      "data_structures",
+      "algorithms",
+      "system_design"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 75000,
+    "storage_size_bytes": 320000000,
+    "token_count": 120000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "sft",
+    "quality_information": "Synthesized code instructions grounded directly in real open-source code snippets (OSS-Instruct methodology)",
+    "known_limitations": [
+      "Synthetic completions grounded in OSS seeds"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "nickrosh/Evol-Instruct-Code-80k-v1",
+    "name": "Evol-Instruct-Code",
+    "source_url": "https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1",
+    "publisher": "WizardLM Community",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "javascript",
+      "cpp",
+      "java",
+      "csharp",
+      "go",
+      "rust",
+      "php",
+      "sql",
+      "shell"
+    ],
+    "domains": [
+      "advanced_programming",
+      "algorithms",
+      "performance_optimization",
+      "testing_and_debugging"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 78264,
+    "storage_size_bytes": 400000000,
+    "token_count": 150000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "sft",
+    "quality_information": "Heuristically evolved instructions covering complexity constraints, debugging, and algorithms",
+    "known_limitations": [
+      "Some evolved queries contain extreme synthetic complexity"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "m-a-p/OpenCodeInterpreter",
+    "name": "OpenCodeInterpreter",
+    "source_url": "https://huggingface.co/datasets/m-a-p/OpenCodeInterpreter",
+    "publisher": "M-A-P / Tsinghua University",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "cpp",
+      "java"
+    ],
+    "domains": [
+      "testing_and_debugging",
+      "code_generation",
+      "autonomous_software_engineering",
+      "bug_fixing"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 68000,
+    "storage_size_bytes": 480000000,
+    "token_count": 180000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "agent_trajectories",
+    "quality_information": "Multi-turn code execution trajectories with actual stdout, stderr, and code repair steps",
+    "known_limitations": [
+      "Requires execution parser to separate code vs runtime stdout"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "tianyang/RepoBench",
+    "name": "RepoBench",
+    "source_url": "https://github.com/Leolty/repobench",
+    "publisher": "HKUST",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "java"
+    ],
+    "domains": [
+      "repository_understanding",
+      "multi_file_code_generation",
+      "software_architecture"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 20000,
+    "storage_size_bytes": 1200000000,
+    "token_count": 250000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "repository_tasks",
+    "quality_information": "Repo-level retrieval and completion benchmarks with in-repo cross-file context",
+    "known_limitations": [
+      "Context lengths can exceed 16k tokens"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "FSoft-AI4Code/CrossCodeEval",
+    "name": "CrossCodeEval",
+    "source_url": "https://github.com/FSoft-AI4Code/CrossCodeEval",
+    "publisher": "FPT Software AI Center",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "java",
+      "typescript",
+      "csharp"
+    ],
+    "domains": [
+      "repository_understanding",
+      "multi_file_code_generation"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 8500,
+    "storage_size_bytes": 450000000,
+    "token_count": 110000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "repository_tasks",
+    "quality_information": "Cross-file context dependent code completions across diverse modern frameworks",
+    "known_limitations": [
+      "Benchmark only; requires repo tree structure to evaluate"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "bigcode/bigcodebench",
+    "name": "BigCodeBench",
+    "source_url": "https://github.com/bigcode-project/bigcodebench",
+    "publisher": "BigCode Consortium",
+    "license": "apache-2.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "api_development",
+      "machine_learning_engineering",
+      "data_engineering",
+      "backend_development"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 1140,
+    "storage_size_bytes": 22000000,
+    "token_count": 8000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "benchmark",
+    "quality_information": "Complex instruction-following and library-oriented programming tasks with unit tests",
+    "known_limitations": [
+      "Benchmark contamination target: Keep out of training splits"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "nuprl/MultiPL-E",
+    "name": "MultiPL-E",
+    "source_url": "https://github.com/nuprl/MultiPL-E",
+    "publisher": "Northeastern University",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "javascript",
+      "typescript",
+      "java",
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "rust",
+      "php",
+      "ruby",
+      "swift",
+      "kotlin",
+      "scala",
+      "r",
+      "julia",
+      "lua",
+      "perl"
+    ],
+    "domains": [
+      "basic_programming",
+      "algorithms",
+      "data_structures"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 3500,
+    "storage_size_bytes": 45000000,
+    "token_count": 12000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "benchmark",
+    "quality_information": "HumanEval and MBPP translated into 18+ programming languages with native unit test runners",
+    "known_limitations": [
+      "Benchmark dataset"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "xlang-ai/DS-1000",
+    "name": "DS-1000",
+    "source_url": "https://github.com/xlang-ai/DS-1000",
+    "publisher": "HKU & Columbia University",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "data_engineering",
+      "machine_learning_engineering",
+      "deep_learning_engineering"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 1000,
+    "storage_size_bytes": 15000000,
+    "token_count": 6000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "benchmark",
+    "quality_information": "1,000 realistic data science problems across NumPy, Pandas, Scikit-learn, PyTorch, SciPy, Matplotlib",
+    "known_limitations": [
+      "Evaluation only; keep decontaminated"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "cruxeval-org/cruxeval",
+    "name": "CRUXEval",
+    "source_url": "https://github.com/cruxeval-org/cruxeval",
+    "publisher": "MIT & Meta AI",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python"
+    ],
+    "domains": [
+      "testing_and_debugging",
+      "code_reasoning",
+      "performance_optimization"
+    ],
+    "dataset_format": "jsonl",
+    "example_count": 800,
+    "storage_size_bytes": 5000000,
+    "token_count": 2000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "reasoning",
+    "quality_information": "Code execution reasoning: input prediction and output prediction benchmarks",
+    "known_limitations": [
+      "Short execution-focused snippets"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "academic"
+  },
+  {
+    "dataset_id": "HuggingFaceH4/Code-Feedback-DPO",
+    "name": "Code Feedback DPO",
+    "source_url": "https://huggingface.co/datasets/HuggingFaceH4/Code-Feedback-DPO",
+    "publisher": "Hugging Face H4 Team",
+    "license": "mit",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow",
+    "languages": [
+      "python",
+      "javascript",
+      "cpp",
+      "java",
+      "bash",
+      "sql"
+    ],
+    "domains": [
+      "code_generation",
+      "code_refactoring",
+      "bug_fixing",
+      "testing_and_debugging"
+    ],
+    "dataset_format": "parquet",
+    "example_count": 64000,
+    "storage_size_bytes": 420000000,
+    "token_count": 95000000,
+    "collection_date": "2026-10-31",
+    "version": "1.0.0",
+    "training_type": "preference",
+    "quality_information": "Chosen vs Rejected code implementations with human and compiler preference scoring",
+    "known_limitations": [
+      "Optimized specifically for DPO/RLHF alignment"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "huggingface"
+  },
+  {
+    "dataset_id": "zenodo/software-engineering-corpora-10492812",
+    "name": "Zenodo Empirical Software Engineering Corpus",
+    "source_url": "https://zenodo.org/record/10492812",
+    "publisher": "Empirical SE Research Group",
+    "license": "cc-by-4.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow_with_attribution",
+    "languages": [
+      "java",
+      "c",
+      "cpp",
+      "python",
+      "javascript"
+    ],
+    "domains": [
+      "bug_fixing",
+      "code_refactoring",
+      "software_architecture",
+      "testing_and_debugging"
+    ],
+    "dataset_format": "json.gz",
+    "example_count": 450000,
+    "storage_size_bytes": 8500000000,
+    "token_count": 1800000000,
+    "collection_date": "2026-10-31",
+    "version": "2.1.0",
+    "training_type": "debugging",
+    "quality_information": "Empirical bug fixing commits and stack trace repairs validated by academic peers",
+    "known_limitations": [
+      "Academic research archive"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "zenodo"
+  },
+  {
+    "dataset_id": "github-curated/top-system-design-repos",
+    "name": "GitHub Curated System Design & Architecture",
+    "source_url": "https://github.com/donnemartin/system-design-primer",
+    "publisher": "Open Source Community",
+    "license": "cc-by-4.0",
+    "license_category": "permissive",
+    "access_permissions": "public",
+    "redistribution_permissions": "allow_with_attribution",
+    "languages": [
+      "python",
+      "sql",
+      "shell",
+      "html"
+    ],
+    "domains": [
+      "system_design",
+      "software_architecture",
+      "distributed_systems",
+      "database_engineering"
+    ],
+    "dataset_format": "markdown/code",
+    "example_count": 12000,
+    "storage_size_bytes": 350000000,
+    "token_count": 85000000,
+    "collection_date": "2026-10-31",
+    "version": "2024.1",
+    "training_type": "reasoning",
+    "quality_information": "In-depth architectures, scaling patterns, trade-off analysis, and system blueprints",
+    "known_limitations": [
+      "Markdown interspersed with code diagrams"
+    ],
+    "is_curated": true,
+    "verification_status": "verified",
+    "source_ecosystem": "github"
+  }
+]

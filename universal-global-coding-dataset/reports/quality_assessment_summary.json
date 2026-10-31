@@ -1,0 +1,16 @@
+{
+  "total_processed": 1169,
+  "total_cleaned": 1168,
+  "total_premium": 1162,
+  "tier_distribution": {
+    "premium": 1162,
+    "standard": 4,
+    "unverified": 2,
+    "quarantine_secrets": 0,
+    "quarantine_malware": 0,
+    "quarantine_contaminated": 0,
+    "rejected_syntax": 1,
+    "rejected_empty": 0
+  },
+  "pass_rate_percentage": 99.91
+}

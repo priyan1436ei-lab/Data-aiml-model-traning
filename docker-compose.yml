@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  universal-dataset-platform:
+    build: .
+    container_name: universal_coding_dataset_engine
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./universal-global-coding-dataset:/app/universal-global-coding-dataset
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+

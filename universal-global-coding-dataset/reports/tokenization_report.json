@@ -1,0 +1,65 @@
+{
+  "total_records": 1149,
+  "total_tokens": 147754,
+  "sequence_statistics": {
+    "total_tokens": 147754,
+    "count": 1149,
+    "mean_length": 128.6,
+    "max_length": 827,
+    "min_length": 39,
+    "p50_length": 96,
+    "p95_length": 312,
+    "p99_length": 475,
+    "distribution_buckets": {
+      "0-512": 1142,
+      "513-1024": 7,
+      "1025-2048": 0,
+      "2049-4096": 0,
+      "4097-8192": 0,
+      "8192+": 0
+    }
+  },
+  "language_token_distribution": {
+    "python": 141078,
+    "javascript": 811,
+    "sql": 525,
+    "csharp": 475,
+    "c": 434,
+    "cuda": 399,
+    "go": 374,
+    "typescript": 367,
+    "cpp": 357,
+    "verilog": 349,
+    "r": 347,
+    "solidity": 345,
+    "haskell": 305,
+    "java": 266,
+    "powershell": 225,
+    "julia": 197,
+    "shell": 192,
+    "ruby": 174,
+    "swift": 164,
+    "elixir": 126,
+    "kotlin": 124,
+    "scala": 120
+  },
+  "category_token_distribution": {
+    "benchmark": 138148,
+    "pretraining": 6665,
+    "sft": 1080,
+    "reasoning": 642,
+    "agent_trajectories": 477,
+    "preference": 307,
+    "debugging": 252,
+    "repository_tasks": 183
+  },
+  "splits": {
+    "train_records": 1034,
+    "train_tokens": 131042,
+    "val_records": 57,
+    "val_tokens": 7754,
+    "test_records": 58,
+    "test_tokens": 8958
+  },
+  "packed_context_batches": 38
+}
